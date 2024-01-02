@@ -108,7 +108,7 @@ def SCAN(requests, curr_head, moving_direction):
 
 
 # generate a set of 10 random requests
-request_10 = random.sample(range(tot_cylinder), 10)
+request_10 = [ 159, 33, 116, 149, 51, 153, 140, 184, 109, 69]
 print("\nRequest size : 10")
 print("10 random requests :", request_10)
 SCAN(request_10, curr_head, moving_direction)
