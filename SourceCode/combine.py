@@ -261,8 +261,8 @@ def CLOOK(requests, curr_head, moving_direction):
     # Print results
     print("\nSeek request sequence is:", seek_req_sequence)
     print("\nTotal seek time =", seek_time, "ms")
-    print("Average seek time =", average_seek_time, "ms")
-    print("Worst-case seek time =", max_distance, "ms")
+    print("\nAverage seek time =", average_seek_time, "ms")
+    print("\nWorst-case seek time =", max_distance, "ms")
 
 
 # Function to run all three algorithms with given requests
